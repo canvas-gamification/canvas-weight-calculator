@@ -8,6 +8,7 @@
 .idea/
 __pycache__/
 gamification.egg-info/
+settings.json
 
 # User-specific stuff
 .idea/**/workspace.xml
