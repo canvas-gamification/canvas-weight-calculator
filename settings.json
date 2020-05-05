@@ -1,0 +1,20 @@
+{
+  "url": "https://canvas.ubc.ca",
+  "token": "11224~t93W3Ig73DPLI6nUZ61g1PAt1uGWixRzzVtIvI9B56szfNzTIypROPJyYcXV39JQ",
+  "course_id": 45950,
+
+  "weights_ranges_file_name": "Weights.txt",
+  "weights_ranges_file_local": true,
+  "weights_assignment_group_name": "Weights",
+  "weights_assignment_prefix": "Weight_",
+
+  "EMAIL_USE_TLS": true,
+  "EMAIL_HOST": "smtp-relay.sendinblue.com",
+  "EMAIL_HOST_USER": "keyvankhademi@gmail.com",
+  "EMAIL_HOST_PASSWORD": "6RSFhT2pKQUwGdxE",
+  "EMAIL_ACTIVATION": "activate@whatweteach.herokuapp.com",
+  "EMAIL_PASSWORD_RESET": "reset@whatweteach.herokuapp.com",
+  "EMAIL_PORT": 587,
+  "reCaptcha_key": "6LeEo8MUAAAAANw2wGTFYVmITjKdH4Yz0Xt6keKE",
+  "reCaptcha_url": "https://www.google.com/recaptcha/api/siteverify"
+}
