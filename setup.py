@@ -1,15 +1,15 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='gamification',
-    version='0.2',
+    name='canvas-weight-calculator',
+    version='0.3',
     license='MIT',
-    py_modules=['gamification'],
+    py_modules=['gamification', 'Canvas', 'exceptions', 'weight_calculator'],
     packages=find_packages(),
     author='Keyvan Khademi',
     author_email="keyvankhademi@gmail.com",
     url='https://github.com/keyvankhademi/canvas-weight-calculator',
-    download_url='https://github.com/keyvankhademi/canvas-weight-calculator/archive/v0.2.tar.gz',
+    download_url='https://github.com/keyvankhademi/canvas-weight-calculator/archive/v0.3.tar.gz',
     keywords=['Canvas', 'Gamification'],
     include_package_data=True,
     install_requires=[
