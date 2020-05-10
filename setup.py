@@ -9,6 +9,7 @@ setup(
     author='Keyvan Khademi',
     author_email="keyvankhademi@gmail.com",
     url='https://github.com/keyvankhademi/canvas-weight-calculator',
+    download_url='https://github.com/keyvankhademi/canvas-weight-calculator/archive/v0.2.tar.gz',
     keywords=['Canvas', 'Gamification'],
     include_package_data=True,
     install_requires=[
