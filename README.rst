@@ -24,9 +24,15 @@ Python 3.7
 
 Installing
 ----------
-1. You should locally install this program.
-2. Activate the provided virtualenv in ./venv or create your own virtual env
-3. Install the program using this command line:
+
+Install Using Pip
++++++++++++++++++
+pip install canvas-gamification
+
+Install From Local
+++++++++++++++++++
+1. Activate the provided virtualenv in ./venv or create your own virtual env
+2. Install the program using this command line:
     pip install --editable .
 
 Usage
