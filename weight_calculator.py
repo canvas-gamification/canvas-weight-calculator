@@ -43,10 +43,6 @@ def validate_grades_and_ranges(grades, ranges):
     if not validate_rages(ranges):
         return False
 
-    for assignment, grade in grades.items():
-        if assignment not in ranges:
-            return False
-
     for assignment, range_item in ranges.items():
         if assignment not in grades:
             return False
@@ -71,10 +67,6 @@ def calculate_weights(grades, ranges):
     }
     """
 
-
-    print(grades)
-    print(ranges)
-
     if not validate_grades_and_ranges(grades, ranges):
         raise RangeValidationException()
 
@@ -89,6 +81,10 @@ def calculate_weights(grades, ranges):
     left_over = 100 - sum(weight for assignment, weight in result.items())
 
     for assignment, grade in sorted(compact_grades.items(), key=lambda x: -x[1]):
+
+        if assignment not in result:
+            continue
+
         possible_add_weight = ranges[assignment][1] - result[assignment]
 
         if possible_add_weight <= left_over:
